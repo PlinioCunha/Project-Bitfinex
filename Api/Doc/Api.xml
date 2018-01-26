@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Controllers.ValuesController.SaveOrderBook(System.String)">
+            <summary>
+            Interface para salvar o livro de ordem de uma moeda. Passe o simbolo da moeda como paramêtro.
+            </summary>
+            <param name="symbol">Ex: btcusd, iotusd, xrpusd</param>
+            <returns></returns>
+        </member>
+        <member name="T:Api.Properties.Mensagens">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Api.Properties.Mensagens.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Api.Properties.Mensagens.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Api.Properties.Mensagens.Sucesso">
+            <summary>
+              Looks up a localized string similar to Seus dados foram enviados com sucesso..
+            </summary>
+        </member>
+        <member name="P:Api.Startup.Configuration">
+            <summary>
+            Construtor
+            </summary>
+        </member>
+        <member name="M:Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configuration
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>

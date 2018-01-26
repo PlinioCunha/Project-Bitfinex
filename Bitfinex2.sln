@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apps", "1 - Apps", "{685DC2DD-0B35-43D7-A424-8429C40EB2EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{B4090306-1B80-4935-83C3-8C08F7368D61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{D8C8761D-4E1A-4C72-84A4-3570108963C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Data", "Infra.Data\Infra.Data.csproj", "{24BFFA36-5655-4C94-A566-038F564DC7A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.IoC", "Infra.IoC\Infra.IoC.csproj", "{C3F56EE4-0D95-4F10-B346-1D09B8955439}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{05CE9497-175A-43E9-AB65-A5CD91B6E1F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Core", "Domain.Core\Domain.Core.csproj", "{4371121E-8D97-4027-96BD-E0CF764FCAA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{921C6D39-825E-4813-9083-07541395029C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConsoleBitfinex", "AppConsoleBitfinex\AppConsoleBitfinex.csproj", "{6B14CF90-F45E-45F5-A8E4-F824040A9606}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24BFFA36-5655-4C94-A566-038F564DC7A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BFFA36-5655-4C94-A566-038F564DC7A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BFFA36-5655-4C94-A566-038F564DC7A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BFFA36-5655-4C94-A566-038F564DC7A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F56EE4-0D95-4F10-B346-1D09B8955439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F56EE4-0D95-4F10-B346-1D09B8955439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F56EE4-0D95-4F10-B346-1D09B8955439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F56EE4-0D95-4F10-B346-1D09B8955439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05CE9497-175A-43E9-AB65-A5CD91B6E1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05CE9497-175A-43E9-AB65-A5CD91B6E1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05CE9497-175A-43E9-AB65-A5CD91B6E1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05CE9497-175A-43E9-AB65-A5CD91B6E1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4371121E-8D97-4027-96BD-E0CF764FCAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4371121E-8D97-4027-96BD-E0CF764FCAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4371121E-8D97-4027-96BD-E0CF764FCAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4371121E-8D97-4027-96BD-E0CF764FCAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921C6D39-825E-4813-9083-07541395029C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921C6D39-825E-4813-9083-07541395029C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921C6D39-825E-4813-9083-07541395029C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921C6D39-825E-4813-9083-07541395029C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B14CF90-F45E-45F5-A8E4-F824040A9606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B14CF90-F45E-45F5-A8E4-F824040A9606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B14CF90-F45E-45F5-A8E4-F824040A9606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B14CF90-F45E-45F5-A8E4-F824040A9606}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24BFFA36-5655-4C94-A566-038F564DC7A4} = {D8C8761D-4E1A-4C72-84A4-3570108963C7}
+		{C3F56EE4-0D95-4F10-B346-1D09B8955439} = {D8C8761D-4E1A-4C72-84A4-3570108963C7}
+		{05CE9497-175A-43E9-AB65-A5CD91B6E1F0} = {B4090306-1B80-4935-83C3-8C08F7368D61}
+		{4371121E-8D97-4027-96BD-E0CF764FCAA6} = {B4090306-1B80-4935-83C3-8C08F7368D61}
+		{921C6D39-825E-4813-9083-07541395029C} = {685DC2DD-0B35-43D7-A424-8429C40EB2EA}
+		{6B14CF90-F45E-45F5-A8E4-F824040A9606} = {685DC2DD-0B35-43D7-A424-8429C40EB2EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D71600CD-5040-40A0-AEFD-029CD3A1B169}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://pliniocunha.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Api\\Api.csproj
+		SccProjectTopLevelParentUniqueName1 = Bitfinex2.sln
+		SccProjectName1 = Api
+		SccLocalPath1 = Api
+		SccProjectUniqueName2 = Domain.Core\\Domain.Core.csproj
+		SccProjectTopLevelParentUniqueName2 = Bitfinex2.sln
+		SccProjectName2 = Domain.Core
+		SccLocalPath2 = Domain.Core
+		SccProjectUniqueName3 = Domain\\Domain.csproj
+		SccProjectTopLevelParentUniqueName3 = Bitfinex2.sln
+		SccProjectName3 = Domain
+		SccLocalPath3 = Domain
+		SccProjectUniqueName4 = Infra.Data\\Infra.Data.csproj
+		SccProjectTopLevelParentUniqueName4 = Bitfinex2.sln
+		SccProjectName4 = Infra.Data
+		SccLocalPath4 = Infra.Data
+		SccProjectUniqueName5 = Infra.IoC\\Infra.IoC.csproj
+		SccProjectTopLevelParentUniqueName5 = Bitfinex2.sln
+		SccProjectName5 = Infra.IoC
+		SccLocalPath5 = Infra.IoC
+		SccProjectUniqueName6 = AppConsoleBitfinex\\AppConsoleBitfinex.csproj
+		SccProjectTopLevelParentUniqueName6 = Bitfinex2.sln
+		SccProjectName6 = AppConsoleBitfinex
+		SccLocalPath6 = AppConsoleBitfinex
+	EndGlobalSection
+EndGlobal
